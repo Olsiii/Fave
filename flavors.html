@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore FAVE's bold fruit flavors - Peach and Multivitamin. Born in NYC, best served ice cold.">
+    
+    <meta property="og:title" content="FAVE Flavors - Peach & Multivitamin">
+    <meta property="og:description" content="Discover our bold fruit flavors: smooth Peach and tropical Multivitamin.">
+    <meta property="og:type" content="website">
+    
+    <title>Flavors - FAVE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    
+    <!-- JSON-LD Product Schema for Peach -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "FAVE Peach",
+      "image": "/assets/peach-can.jpg",
+      "description": "Sun-ripened peach flavor with a crisp, refreshing finish. Best served ice cold.",
+      "brand": {
+        "@type": "Brand",
+        "name": "FAVE"
+      },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "url": "https://drinkfave.com/flavors.html#peach"
+      }
+    }
+    </script>
+    
+    <!-- JSON-LD Product Schema for Multivitamin -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "FAVE Multivitamin",
+      "image": "/assets/multivitamin-can.jpg",
+      "description": "Tropical multivitamin escape with a bright, tangy twist. Best served ice cold.",
+      "brand": {
+        "@type": "Brand",
+        "name": "FAVE"
+      },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "url": "https://drinkfave.com/flavors.html#multivitamin"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Sticky Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="/index.html" class="logo" aria-label="FAVE Home">
+                <img src="Images/1x/Asset 2.png" alt="FAVE Logo" class="logo-img">
+            </a>
+            
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="/index.html" class="nav-link">Home</a>
+                <a href="/flavors.html" class="nav-link active">Flavors</a>
+                <a href="/find_fave.html" class="nav-link">Find <img src="Images/1x/Asset 2.png" alt="FAVE" class="nav-logo-inline"></a>
+                <a href="/about.html" class="nav-link">Our Story</a>
+                <a href="/find_fave.html" class="nav-link nav-cta">Shop Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero" style="background:#ed2c7d;">
+        <div class="container">
+            <h1 class="page-title" style="color:white;">Our Flavors</h1>
+            <p class="page-subtitle" style="color:white;">Bold, refreshing, and unmistakably FAVE</p>
+        </div>
+    </section>
+
+    <!-- Peach Flavor Section -->
+    <section class="flavor-detail" id="peach">
+        <div class="container">
+            <div class="flavor-gallery-layout">
+                <div class="flavor-image-left reveal">
+                    <img src="Asset_Cans/Peach_Front.png" alt="FAVE Peach Front" loading="lazy">
+                </div>
+                
+                <div class="flavor-content-center reveal">
+                    <span class="flavor-badge peach-badge">Peach Iced Tea</span>
+                    <h2 class="flavor-detail-title">Smooth & Sweet</h2>
+                    <p class="flavor-fun-description">
+                        Picture this: You're chilling in the park, sun hitting just right, and boom – that perfect peach moment hits. That's what this is. Juicy, real, and ready to make every sip count. 🍑✨
+                    </p>
+                    <div class="flavor-quick-info">
+                        <span class="quick-tag">🥤 Refreshing Soft Drink</span>
+                        <span class="quick-tag">🌿 Natural Flavors</span>
+                        <span class="quick-tag">🧊 Best Served Ice Cold</span>
+                    </div>
+                    <a href="/find_fave.html" class="btn btn-primary">Get Your FAVE</a>
+                </div>
+                
+                <div class="flavor-image-right reveal">
+                    <img src="Asset_Cans/Peach_Top.png" alt="FAVE Peach Top View" loading="lazy">
+                    <img src="Asset_Cans/Peach_Back.png" alt="FAVE Peach Back" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Multivitamin Flavor Section -->
+    <section class="flavor-detail multivitamin-section" id="multivitamin">
+        <div class="container">
+            <div class="flavor-gallery-layout reverse-layout">
+                <div class="flavor-image-left reveal">
+                    <img src="/images/Multi_Can.png" alt="FAVE Multivitamin Front" loading="lazy">
+                </div>
+                
+                <div class="flavor-content-center reveal">
+                    <span class="flavor-badge multivitamin-badge">Multivitamin</span>
+                    <h2 class="flavor-detail-title">Bold & Tangy</h2>
+                    <p class="flavor-fun-description">
+                        Think tropical vibes meets that kick-you-awake energy. One sip and you're transported – beach waves, summer nights, and that perfect balance of bold meets refreshing. It's a whole mood. 🍍⚡
+                    </p>
+                    <div class="flavor-quick-info">
+                        <span class="quick-tag">🥤 Refreshing Soft Drink</span>
+                        <span class="quick-tag">🌿 Natural Flavors</span>
+                        <span class="quick-tag">🧊 Best Served Ice Cold</span>
+                    </div>
+                    <a href="/find_fave.html" class="btn btn-primary">Get Your FAVE</a>
+                </div>
+                
+                <div class="flavor-image-right reveal">
+                    <img src="Asset_Cans/Multi_Top.png" alt="FAVE Multivitamin Top View" loading="lazy">
+                    <img src="Asset_Cans/Multi_Back.png" alt="FAVE Multivitamin Back" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coming Soon Announcement -->
+    <section class="section coming-soon-section">
+        <div class="container">
+            <div class="announcement-card reveal">
+                <span class="announcement-badge">Coming Soon</span>
+                <h2 class="announcement-title">New Flavors Dropping March 2025</h2>
+                <p class="announcement-text">
+                    We're cooking up something special. Be the first to know when our new flavors hit the streets.
+                </p>
+                <a href="/index.html#newsletter" class="btn btn-secondary">Get Notified</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="/1x/Fave_Logo_1.png" alt="FAVE Logo" class="logo-img">
+                    </div>
+                    <p class="footer-tagline">Cooler Than Your Current Favorite</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Shop</h4>
+                        <a href="/flavors.html">Flavors</a>
+                        <a href="/where-to-buy.html">Where to Buy</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="/about.html">Our Story</a>
+                        <a href="#" aria-label="Privacy Policy">Privacy</a>
+                        <a href="#" aria-label="Terms of Service">Terms</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <a href="https://www.instagram.com/drinkfave/" target="_blank" rel="noopener">Instagram</a>
+                        <a href="https://www.facebook.com/drinkfave/" target="_blank" rel="noopener">Facebook</a>
+                        <a href="mailto:hello@favedrinks.com">Email Us</a>
+                    </div>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/drinkfave/" class="social-icon" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                    </a>
+                    <a href="https://www.facebook.com/drinkfave/" class="social-icon" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@drinkfave" class="social-icon" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg width="24" height="34" viewBox="0 0 17 17" fill="currentColor" >
+                            <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"></path>
+                        </svg>
+                    </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> FAVE Beverages. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+</body>
+</html>

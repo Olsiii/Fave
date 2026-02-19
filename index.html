@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FAVE - NYC's bold new beverage brand. Born in New York, made for the moment. Discover our Peach and Multivitamin flavors.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="FAVE - A FAVE state of mind">
+    <meta property="og:description" content="NYC-inspired refreshment with bold fruit flavors. Available at Amazon and Walmart.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://drinkfave.com">
+    <meta property="og:image" content="/assets/og-image.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FAVE - A FAVE state of mind">
+    <meta name="twitter:description" content="NYC-inspired refreshment with bold fruit flavors.">
+    <meta name="twitter:image" content="/assets/twitter-image.jpg">
+    
+    <title>FAVE - A FAVE state of mind</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+</head>
+<body>
+    <!-- Sticky Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="/index.html" class="logo" aria-label="FAVE Home">
+                <img src="Images/1x/Asset 2.png" alt="FAVE Logo" class="logo-img">
+            </a>
+            
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="/index.html" class="nav-link active">Home</a>
+                <a href="/flavors.html" class="nav-link">Flavors</a>
+                <a href="/find_fave.html" class="nav-link">Find <img src="Images/1x/Asset 2.png" alt="FAVE" class="nav-logo-inline"></a>
+                <a href="/about.html" class="nav-link">Our Story</a>
+                <a href="/find_fave.html" class="nav-link nav-cta">Shop Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Full-width video directly under navbar -->
+        <div class="hero-product">
+            <div class="product-video-container">
+                <video class="product-video" autoplay muted loop playsinline>
+                     <source src="images/Review_4.mp4" type="video/mp4"> 
+                     Fallback image when video not available if video not available
+                </video>
+                <img src="images/Can_1.PNG" alt="FAVE beverages" class="product-fallback">
+                Replace this image with actual product shot if video not available
+            </div>
+        </div>
+        
+        <!-- Content below video with gradient background -->
+        <div class="hero-content-wrapper">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Awaken your taste, energize your moments.</h1>
+                    <p class="hero-subtitle"></p>
+                    
+                    <div class="hero-cta">
+                        <a href="/find_fave.html" class="btn btn-primary">Shop Now</a>
+                        <a href="/flavors.html" class="btn btn-secondary">View Flavors</a>
+                    
+                     </div>
+                        <div class="available-at">
+                            <span class="available-label" style="color:black;">Available at</span>
+                            <div class="retailer-chips">
+                                <a href="https://www.amazon.com/" class="chip" target="_blank" rel="noopener">Amazon</a>
+                                <a href="https://www.walmart.com/" class="chip" target="_blank" rel="noopener">Walmart</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why FAVE Section -->
+    <section class="section why-fave">
+        <div class="container">
+            <h2 class="section-title">Why FAVE?</h2>
+            
+            <div class="feature-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <img src="Images/All_Natural_Icon.png" alt="Natural" class="feature-icon-img">
+                    </div>
+                    <h3 class="feature-title">Natural</h3>
+                    <p class="feature-text">Real, vibrant flavors that stand out in every sip</p>
+                </div>
+                
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <img src="Images/No_Artificial_Color_Icon.png" alt="No Artificial Color" class="feature-icon-img">
+                    </div>
+                    <h3 class="feature-title">No Artificial Color</h3>
+                    <p class="feature-text">Perfectly refreshing when chilled to perfection</p>
+                </div>
+                
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <img src="Images/Refresh_Icon.png" alt="Refreshing" class="feature-icon-img">
+                    </div>
+                    <h3 class="feature-title">Refreshing</h3>
+                    <p class="feature-text">Your go-to drink for any moment of the day</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flavor Preview Section -->
+    <section class="section flavor-preview">
+        <div class="container">
+            <h2 class="section-title">Our Flavors</h2>
+            <p class="section-subtitle">Two bold flavors. Infinite possibilities.</p>
+            
+            <div class="flavor-cards">
+                <div class="flavor-card peach-card reveal">
+                    <div class="flavor-image">
+                        <img src="/images/Peach_Can.png" alt="FAVE Peach" loading="lazy">
+                        <!-- Replace with actual product image -->
+                    </div>
+                    <div class="flavor-info">
+                        <h3 class="flavor-name">Peach Iced Tea</h3>
+                        <p class="flavor-notes">Peach infused iced tea crafted for a fruity, refreshing, and perfectly balanced taste.</p>
+                        <a href="/flavors.html#peach" class="btn btn-outline">Explore</a>
+                        <a href="/find_fave.html#amazon" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+                
+                <div class="flavor-card multivitamin-card reveal">
+                    <div class="flavor-image">
+                        <img src="/images/Multi_Can.png" alt="FAVE Multivitamin" loading="lazy">
+                        <!-- Replace with actual product image -->
+                    </div>
+                    <div class="flavor-info">
+                        <h3 class="flavor-name">Multivitamin</h3>
+                        <p class="flavor-notes">Tropical escape with a bright, tangy twist</p>
+                        <a href="/flavors.html#multivitamin" class="btn btn-outline">Explore</a>
+                        <a href="/find_fave.html#amazon" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz CTA Section -->
+    <section class="section quiz-section">
+        <div class="container">
+            <div class="quiz-cta reveal">
+                <h2>Not sure which flavor to try?</h2>
+                <p>Take our quick quiz to find your perfect match</p>
+                <button class="btn btn-primary" id="startQuizBtn">Find Your FAVE</button>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Social Proof Section -->
+    <section class="section social-section">
+        <div class="container">
+            <h2 class="section-title">Follow @drinkfave</h2>
+            <p class="section-subtitle">Join the community and share your FAVE moments</p>
+            
+            <a href="https://www.instagram.com/drinkfave/" class="btn btn-social" target="_blank" rel="noopener">
+                <span class="social-icon">📷</span> Follow on Instagram
+            </a>
+            
+            <div class="ugc-grid reveal">
+                <div class="ugc-card">
+                    <img src="Images/Can_Car.PNG" alt="FAVE moment" loading="lazy">
+                    <!-- User-generated content placeholder -->
+                </div>
+                <div class="ugc-card">
+                    <img src="Images/Can_Christmas.PNG" alt="FAVE moment" loading="lazy">
+                </div>
+                <div class="ugc-card">
+                    <img src="Images/Can_Fridge.PNG" alt="FAVE moment" loading="lazy">
+                </div>
+                <div class="ugc-card">
+                    <img src="Images/Can_Ice.PNG" alt="FAVE moment" loading="lazy">
+                </div>
+                <div class="ugc-card">
+                    <img src="Images/Fave_Sticker.PNG" alt="FAVE moment" loading="lazy">
+                </div>
+                <div class="ugc-card">
+                    <img src="Images/Fave_Friends.png" alt="FAVE moment" loading="lazy">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="section newsletter-section">
+        <div class="container">
+            <div class="newsletter-card reveal">
+                <h2 class="newsletter-title">Get first access to new flavors + store drops</h2>
+                <p class="newsletter-text">Join our community and never miss a drop</p>
+                
+                <form class="newsletter-form" id="newsletterForm">
+                    <input 
+                        type="email" 
+                        class="newsletter-input" 
+                        placeholder="Enter your email" 
+                        required 
+                        aria-label="Email address"
+                        id="newsletterEmail"
+                    >
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <div class="newsletter-error" id="newsletterError" role="alert" style="display: none;"></div>
+                <div class="newsletter-success" id="newsletterSuccess">
+                    <span class="success-icon">✓</span>
+                    <p>Thanks for subscribing! Check your inbox soon.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-accordion" id="faqAccordion">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Where can I buy FAVE?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>FAVE is currently available on Amazon and Walmart online. We're also rolling out to select NYC stores—check our store locator for locations near you!</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>When are new flavors coming?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We're launching exciting new flavors in March! Sign up for our newsletter to be the first to know when they drop.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Where is FAVE available?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We're in select bodegas, cafes, and stores across NYC. Visit our store locator page for specific addresses and directions.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How can I contact you?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We'd love to hear from you! Reach out at contact@drinkfave.com or DM us on Instagram @drinkfave.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Modal -->
+    <div class="modal" id="quizModal" role="dialog" aria-labelledby="quizTitle" aria-modal="true">
+        <div class="modal-overlay" id="quizModalOverlay"></div>
+        <div class="modal-content quiz-modal-content">
+            <button class="modal-close" id="closeQuizBtn" aria-label="Close quiz">&times;</button>
+            
+            <div class="quiz-container" id="quizContainer">
+                <h2 id="quizTitle">Find Your FAVE</h2>
+                <p class="quiz-intro">Answer 3 quick questions to discover your perfect flavor</p>
+                
+                <!-- Question 1 -->
+                <div class="quiz-step active" data-step="1">
+                    <h3 class="quiz-question">What's your ideal moment?</h3>
+                    <div class="quiz-options">
+                        <button class="quiz-option" data-answer="peach">
+                            Sunset at the beach
+                        </button>
+                        <button class="quiz-option" data-answer="multivitamin">
+                            Smash burgers with friends
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Question 2 -->
+                <div class="quiz-step" data-step="2">
+                    <h3 class="quiz-question">Pick your vibe:</h3>
+                    <div class="quiz-options">
+                        <button class="quiz-option" data-answer="peach">
+                            Smooth & Sweet
+                        </button>
+                        <button class="quiz-option" data-answer="multivitamin">
+                            Bold & Tangy
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Question 3 -->
+                <div class="quiz-step" data-step="3">
+                    <h3 class="quiz-question">Your go-to summer fruit?</h3>
+                    <div class="quiz-options">
+                        <button class="quiz-option" data-answer="peach">
+                            🍑 Peach
+                        </button>
+                        <button class="quiz-option" data-answer="multivitamin">
+                            🍍 Multivitamin
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Result -->
+                <div class="quiz-result" id="quizResult">
+                    <h3>Your FAVE is...</h3>
+                    <div class="result-flavor">
+                        <img src="/placeholder.svg" alt="" id="resultImage">
+                        <h2 id="resultFlavor"></h2>
+                        <p id="resultDescription"></p>
+                        <a href="/flavors.html" class="btn btn-primary" id="resultLink">Explore This Flavor</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="/1x/Fave_Logo_1.png" alt="FAVE Logo" class="logo-img">
+                    </div>
+                    <p class="footer-tagline">Cooler Than Your Current Favorite</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Shop</h4>
+                        <a href="/flavors.html">Flavors</a>
+                        <a href="/find_fave.html">Where to Buy</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="/about.html">Our Story</a>
+                        <a href="#" aria-label="Privacy Policy">Privacy</a>
+                        <a href="#" aria-label="Terms of Service">Terms</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <a href="https://www.instagram.com/drinkfave/" target="_blank" rel="noopener">Instagram</a>
+                        <a href="https://www.facebook.com/drinkfave/" target="_blank" rel="noopener">Facebook</a>
+                        <a href="mailto:contact@drinkfave.com">Email Us</a>
+                    </div>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/drinkfave/" class="social-icon" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/drinkfave/" class="social-icon" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@drinkfave" class="social-icon" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg width="24" height="34" viewBox="0 0 17 17" fill="currentColor" >
+                                <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> FAVE Beverages. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS for newsletter functionality -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="main.js" defer></script>
+</body>
+</html>
